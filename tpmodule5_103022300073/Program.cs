@@ -10,5 +10,8 @@ class Program
         string nama = Console.ReadLine();
         HaloGeneric halo = new HaloGeneric();
         halo.sapaUser(nama);
+
+        DataGeneric<string> nimData = new DataGeneric<string>("103022300073");
+        nimData.PrintData();
     }
 }
